@@ -1,0 +1,23 @@
+/src
+ ├── config
+ │    ├── database.ts          # TypeORM Database Connection
+ ├── models
+ │    ├── Log.ts               # TypeORM Log Entity (Model)
+ ├── controllers
+ │    ├── LogController.ts     # Controller for Logs
+ ├── services
+ │    ├── LogService.ts        # Service for Log Operations
+ ├── routes
+ │    ├── logRoutes.ts         # API Routes
+ ├── cron
+ │    ├── deleteOldLogs.ts     # Cron Job Logic
+ ├── index.ts                  # Main Entry Point
+
+//inside the models we need to add the models ~ tables inside the database
+//create the Connection with the configurations
+
+// services will handle the database operations inside the application.
+inside the LogService we will crete the services which will perform the database activities....
+
+
+//LogController will respond to the user api requests.
